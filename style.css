@@ -102,6 +102,29 @@ body, html{
 .sidebar{
     background-color: #1992d4;
     grid-row: 1/4;
+    display: grid;
+    grid-template-rows: 0.2fr 0.5fr 1fr;
+    align-items: start;
+    gap: 15px; 
+    padding: 16px;
+    color: #ffffff;
+    font-weight:900;
+    font-size: 1.3rem;
+}
+
+.part1,.part2,.part3{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 5px;
+}
+.part1,.part2,.part3 > p{
+    align-items: center;
+}
+.part1,.part2,.part3 >.icon {
+    filter: brightness(0) invert(1);
+  }
+.dashboard{
+    font-size: 1.6rem;
 }
 .trending{
     grid-column: 3/4;
