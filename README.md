@@ -1,1 +1,1 @@
-# admin-dashboard
+# admin-dashboard : its a basic dashboard project with html and css. mostly using css grid.
