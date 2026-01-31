@@ -10,10 +10,12 @@
     src: url(/Roboto/Roboto-VariableFont_wdth,wght.ttf);
     font-weight: 300;
 }
+
 body, html{
     height: 100%;
     font-family:"Roboto";
 }
+
 .container{
     background-color: #e2e8f0;
     height: 100%;
@@ -87,6 +89,10 @@ body, html{
 .hithere{
     justify-self: start;
     padding: 10px;
+    font-weight: 900;
+}
+.userName{
+    font-weight: 900;
 }
 .rightside2{
     display: grid;
@@ -150,7 +156,6 @@ body, html{
     grid-column: 1/3;
 }
 .item{
-    height: 200px;
     border-left:7px solid orange;
     border-radius: 15px;
     display: grid;
@@ -170,4 +175,52 @@ body, html{
 
  .icon1 {
     height: 20px;
+}
+/* ================== */
+.announcement{
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    gap: 10px;
+    padding: 16px;
+    font-size: 13px;
+}
+.announce-text{
+    /* grid-column: 1/3; */
+    font-size: 16px;
+    font-weight: 900;
+}
+.announce-card{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.share-card{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    opacity: 10px;
+}
+
+.trending{
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    gap: 10px;
+    padding: 16px;
+    margin: 16px;
+    
+}
+.trending-list{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    gap: 10px;
+    padding: 16px;
+}
+.trendingUser{
+    height: 40px;
 }
